@@ -4,7 +4,7 @@ const fs = require('fs');
 
 if (Config.WORKTYPE == 'private') {
 
-Julie.addCommand({ pattern: "help ?(.*)", fromMe: true, dontAddCommandList: true },
+Julie.addCommand({ pattern: "assist ?(.*)", fromMe: true, dontAddCommandList: true },
   async (message, match) => {
     let CMD_HELP = "";
     Julie.commands.map(async (command) => {
@@ -43,7 +43,7 @@ Julie.addCommand({ pattern: "help ?(.*)", fromMe: true, dontAddCommandList: true
 
 else if (Config.WORKTYPE == 'public') {
 
-  Julie.addCommand({ pattern: "help ?(.*)", fromMe: false, dontAddCommandList: true },
+  Julie.addCommand({ pattern: "assist ?(.*)", fromMe: false, dontAddCommandList: true },
     async (message, match) => {
       let CMD_HELP = "";
       Julie.commands.map(async (command) => {
@@ -79,7 +79,7 @@ else if (Config.WORKTYPE == 'public') {
     }
   );
 
-  Julie.addCommand({ pattern: "list ?(.*)", fromMe: false, dontAddCommandList: true },
+  Julie.addCommand({ pattern: "assist ?(.*)", fromMe: false, dontAddCommandList: true },
     async (message, match) => {
       let CMD_HELP = "";
       Julie.commands.map(async (command) => {
