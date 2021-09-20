@@ -18,36 +18,18 @@ Asena.addCommand({pattern: 'shop', fromMe: false, desc: Lang.WP}, (async (messag
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `**•━━━━╼⤏🤍AJMAL EDITZ (GFX SHOP)🤍⤎╾━━━•*
- 
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `**MELEKKUTTU STORES*
 
-*💖 LOGO (THEMED) - 10* 
+    *STORES NAME : MELEKKUTTU STORES*
 
-*💖 LETTER LOGO - 10*
+    *PROPRIETOR : BASHEER & SHANAVAS*
 
-*💖 STREAMING OVERLAY NORMAL - 10*
+    *LOCATION : SEARCH (MM BASHEER MELEKKUTTU) ON GOOGLE MAP THERE YOU CAN SEE A BLUE MARK NAMED AS WORK THERE YOU CAN SEE YOUR DESTINATION*
 
-*💖 ANIMATED STREAMING OVERLAY - 10*
+    *PROPER PLACE : EZHUMMATTOOR P.O , HOSPITAL JUNCTION, NEAR THE AUTO STAND*
 
-*💖 ANIMATED STREAMING OVERLAY WITH 3D CHARACTER - 15*
-
-*💖 STREAM START AND END - 15*
-
-*💖 ANIME LOGO - 10*
-
-*💖 INTRO NORMAL - 10*
-
-*💖 GAMING INTRO - 15*
-
-*💖OUTRO (ALL KIND) - 10*
-
-*💖 YOUTUBE BANNER - 5*
-
-*💖AND MANY MORE*
-
-*💖YOU CAN CONTACT ME USING THIS BOT NUMBER ITSELF*
-
-*💖VIDEO EDITING AND PHOTO EDITING ALSO AVAILABLE*
+    *CONTACT OWNER :* *(WHATSAPP)* 
+    *+91 85471 84786*
 `}) 
 
 }));
