@@ -20,7 +20,11 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*creater Ajmal & Achu*
 
-*owner number : CONTACT OWNER USING THIS BOT NUMBER ITSELF*
+*TO CONTACT MY OWNERS
+
+ACHU : https://wa.me/918590967139 
+
+AJMAL : https://wa.me/919744196187*
 
 *githublink : https://github.com/Ajmal-Achu/Nandhutty_v2*
 
