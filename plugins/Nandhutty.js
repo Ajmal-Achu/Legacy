@@ -4,7 +4,7 @@ const fs = require('fs');
 
 if (Config.WORKTYPE == 'private') {
 
-  Julie.addCommand({ pattern: "help ?(.*)", fromMe: true, dontAddCommandList: true },
+  Julie.addCommand({ pattern: "assist ?(.*)", fromMe: true, dontAddCommandList: true },
   async (message, match) => {
     let CMD_HELP = "";
     Julie.commands.map(async (command) => {
@@ -40,7 +40,7 @@ if (Config.WORKTYPE == 'private') {
   }
 );
 
-Julie.addCommand({ pattern: "list ?(.*)", fromMe: false, dontAddCommandList: true },
+Julie.addCommand({ pattern: "assist ?(.*)", fromMe: false, dontAddCommandList: true },
   async (message, match) => {
     let CMD_HELP = "";
     Julie.commands.map(async (command) => {
@@ -75,7 +75,7 @@ Julie.addCommand({ pattern: "list ?(.*)", fromMe: false, dontAddCommandList: tru
     return await message.sendMessage(CMD_HELP);
   }
 );
-Julie.addCommand({ pattern: "help ?(.*)", fromMe: false, dontAddCommandList: true },
+Julie.addCommand({ pattern: "assist ?(.*)", fromMe: false, dontAddCommandList: true },
 async (message, match) => {
   let CMD_HELP = "";
   Julie.commands.map(async (command) => {
@@ -111,7 +111,7 @@ async (message, match) => {
 }
 );
 
-Julie.addCommand({ pattern: "list ?(.*)", fromMe: true, dontAddCommandList: true },
+Julie.addCommand({ pattern: "assist ?(.*)", fromMe: true, dontAddCommandList: true },
 async (message, match) => {
   let CMD_HELP = "";
   Julie.commands.map(async (command) => {
@@ -150,7 +150,7 @@ async (message, match) => {
 
 else if (Config.WORKTYPE == 'public') {
 
-  Julie.addCommand({ pattern: "help ?(.*)", fromMe: false, dontAddCommandList: true },
+  Julie.addCommand({ pattern: "assist ?(.*)", fromMe: false, dontAddCommandList: true },
     async (message, match) => {
       let CMD_HELP = "";
       Julie.commands.map(async (command) => {
@@ -186,7 +186,7 @@ else if (Config.WORKTYPE == 'public') {
     }
   );
 
-  Julie.addCommand({ pattern: "list ?(.*)", fromMe: false, dontAddCommandList: true },
+  Julie.addCommand({ pattern: "assist ?(.*)", fromMe: false, dontAddCommandList: true },
     async (message, match) => {
       let CMD_HELP = "";
       Julie.commands.map(async (command) => {
