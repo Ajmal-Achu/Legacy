@@ -55,7 +55,7 @@ Julie.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
             var uri = encodeURI(match[1])
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
-        if (!!message.mention && message.mention[0] == '919744196187@s.whatsapp.net') {
+        if (!!message.mention && message.mention[0] == '917025561261@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./media/uploads/achu.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
         if (!!message.mention && message.mention[0] == Config.MENTION) {
