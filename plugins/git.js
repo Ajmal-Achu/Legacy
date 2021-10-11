@@ -26,7 +26,7 @@ ACHU : https://wa.me/918590967139
 
 AJMAL : https://wa.me/919744196187*
 
-*githublink : https://github.com/Ajmal-Achu/Nandhutty_v2*
+*githublink : https://github.com/Ajmal-Achu/Nandhutty*
 
 *audio commads : https://github.com/Ajmal-Achu/media/tree/master/uploads*
 `}) 
