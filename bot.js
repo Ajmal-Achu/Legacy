@@ -384,7 +384,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     , MessageType.text);
                             } else {
                                 await conn.sendMessage(conn.user.jid, '*~_________~ Nandhutty_v2 ~______~*' +
-                                    '\n\n*🧞‍♂️ ' + error + '*\n'
+                                    '\n\n*🧞‍♂️ ' + error + '*\n\n```Report errors\njoin with +91 \nhttps://chat.whatsapp.com/DsWqJWHRxgU16kvxFvLYL6``` '
                                     , MessageType.text);
                             }
                         }
