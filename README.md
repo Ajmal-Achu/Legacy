@@ -1,3 +1,9 @@
+## [ANNOUNCEMENT] THIS REPO IS NO MORE MAINTAINED BY OWNERS!!
+
+## IF U WANT TO USE OUR BOT CHECK OUR V2 REPO
+
+
+## [`CLICK HERE TO GET V2`](https://github.com/Ajmal-Achu/Nandhutty_v2)
 
 <div align="center">
   <img border-radius: 15px src="Ajmal-Achu.jpg" width="200" height="200"/>
